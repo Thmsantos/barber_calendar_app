@@ -5,7 +5,7 @@ const WEEK_DAYS = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"];
 
 function Presentation() {
   const [tab, setTab] = useState<"login" | "register">("login");
-
+    
   return (
     <main className="min-h-screen bg-neutral-50">
       <header className="bg-neutral-900 text-white px-4 py-6 md:px-10">
@@ -160,7 +160,7 @@ function Presentation() {
                   </div>
                 </div>
               </fieldset>
-
+                
               <button
                 type="submit"
                 className="w-full md:w-auto bg-neutral-900 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-neutral-800 transition"
